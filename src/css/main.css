@@ -184,6 +184,7 @@ margin: 0 auto 20px;
 .container {
     width: 90%;
     margin: auto;
+    background: 
 }
 .container .col-9 .row .col-8 table tr td .input-radio {
     margin-left: 20px;
@@ -197,6 +198,10 @@ margin: 0 auto 20px;
 }
 .container .col-9 .rounded {
     width: 100% ;
+    background:white;
+}
+.container .viajes, .form-check, .origin-main, .col-5, .fecha, .col-7, .dia, .pasajero-clase {
+    border:#ccc;
 }
 .input-radio {
     margin-left: 20px;
@@ -206,15 +211,27 @@ margin: 0 auto 20px;
     color: black;
 }
 .table-tr {
-    border:1px solid black ;
+    border: 1px solid black ;
+
 }
 .tabla-2 .small {
     color: #666666;
 }
 main {
     background: #e8e8e8;
+    border: 1px solid #ccc;
 }
-
+.container .row .aside {
+    background: white;
+    border: 1px solid #ccc;
+}
+.aside {
+    border: 1px solid #ccc;
+    padding-top: 32px;
+}
+.rusia {
+    margin-left: -19px;
+}
 /* Inicio CSS RNG */
 .header {
     align-items: center;
@@ -319,3 +336,11 @@ padding: 15px;
 #creditcardModal a {
     text-decoration: none;
 }
+
+.color-card {
+background-color: #A780FF!Important;
+}
+
+.color-bod {
+    background-color: greenyellow!Important;
+    }
