@@ -42,7 +42,7 @@ font-family: 'Andika', sans-serif!Important;
     margin:0px;
     padding: 0px;
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     position: relative;
 }
 .filters {
@@ -56,9 +56,6 @@ font-family: 'Andika', sans-serif!Important;
 .cards {
     background: rgb(176, 224, 236);
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .cards-a {
    padding: 20px 30px 25px;
@@ -70,8 +67,9 @@ font-family: 'Andika', sans-serif!Important;
     cursor: pointer;
 }
 .banks-container {
-    margin-right: 30px;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   
 }
 .bank-logo {
@@ -264,33 +262,9 @@ main {
 .coments {
     text-align: center;
 }
-.offer1{
+.offers{
     color: #FFF;
-position:absolute; /*El div será ubicado con relación a la pantalla*/
-left:28px; /*A la derecha deje un espacio de 0px*/
-
-bottom:0px; /*Abajo deje un espacio de 0px*/
-height:77px; /*alto del div*/
-z-index:0;
-}
-.offer2{
-color: #FFF;
-position:absolute; /*El div será ubicado con relación a la pantalla*/
-left:155px; /*A la derecha deje un espacio de 0px*/
-
-bottom: 39px; /*Abajo deje un espacio de 0px*/
-height:px; /*alto del div*/
-z-index:0;
-}
-.offer3{
-    color: #FFF;
-position:absolute; /*El div será ubicado con relación a la pantalla*/
-left:56px; /*A la derecha deje un espacio de 0px*/
-
- /*Abajo deje un espacio de 0px*/
-height:77px; /*alto del div*/
-top: 15px;
-z-index:0;
+    text-align: center;
 }
 
 .offer-playstore{
@@ -358,6 +332,9 @@ flex: 1 1 auto;
 .aloja {
 text-align: left;
 padding: 15px;
+}
+#creditcardModal a {
+    text-decoration: none;
 }
 
 .color-card {
